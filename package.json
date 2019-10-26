@@ -1,11 +1,17 @@
 {
   "name": "star-wars-api",
   "version": "0.0.0",
-  "main": "server.js",
+  "main": "src/server.js",
   "author": {
     "name": "Fellipe Geraldo Pereira Botelho",
     "email": "fellipegpbotelho@gmail.com",
     "url": "https://github.com/fellipegpbotelho"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
 }
