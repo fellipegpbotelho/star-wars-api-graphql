@@ -5,7 +5,7 @@ class Film extends Model {
     super.init({
       id: DataTypes.UUID,
       title: DataTypes.STRING,
-      release_date: DataTypes.DATE,
+      release_date: DataTypes.DATEONLY,
     }, {
       sequelize,
       timestamps: true,
