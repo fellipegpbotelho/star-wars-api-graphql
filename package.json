@@ -1,0 +1,11 @@
+{
+  "name": "star-wars-api",
+  "version": "0.0.0",
+  "main": "server.js",
+  "author": {
+    "name": "Fellipe Geraldo Pereira Botelho",
+    "email": "fellipegpbotelho@gmail.com",
+    "url": "https://github.com/fellipegpbotelho"
+  },
+  "license": "MIT"
+}
